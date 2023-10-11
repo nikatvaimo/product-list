@@ -1,0 +1,32 @@
+:root {
+  --product-description-color: #333;
+  --product-bg-color: #efefef;
+}
+.root {
+  list-style: none;
+  display: flex;
+  margin: 10px;
+}
+
+.product {
+  width: 100%;
+  background: var(--product-bg-color);
+  padding: 10px;
+}
+
+.title{
+  font-weight: 700;
+}
+
+.description {
+  font-size: 10px;
+  color: #333
+}
+
+.cta {
+  width: 100%;
+  background: yellow;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
